@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<h3>Form, Fieldset, legend tag </h3>
+	<!--This code is writen by Jay Fursule -->
+	<form action="http://www.example.com/login.php">
+		<tr><p> Username
+			<input type="text" name="username" size="15" maxlength="30"/>
+		</p>
+	</tr>
+		<p> Password
+			<input type="password" name="password" minlength="8"/>
+		</p>
+
+<hr/>
+<p>What Do YOu Think of this gig?</p>
+		
+			
+			<textarea name="comments" cols="20" rows="4">enter your comments
+				
+			</textarea>
+		<br/>
+<hr/>
+<p>Radio Button</p>
+<hr/>
+<p>please select your fav gener:
+	<br/>
+	<input type="radio" name="genre" value="rock"/>Rock
+
+	<input type="radio" name="genre" value="pop"/>pop
+
+	<input type="radio" name="genre" value="Jazz"/>Jazz
+
+</p>
+<hr/>
+<p>Checkbox</p>
+<p>
+	please select your fav music services :
+
+	<input type="Checkbox" name="services" value="itunes" checked="checked"/>iTunes
+
+	<input type="Checkbox" name="services" value="lastfm"/>Last.fm
+
+	<input type="Checkbox" name="services" value="Spotify">Spotify
+
+</p>
+<hr/>
+<!--This code is writen by Jay Fursule -->
+<p>What device do you listen to music on ?</p>
+<br/>
+<select name="devices">
+	<option value="ipod">iPod</option>
+	<option value="Radio">Radio</option>
+	<option value ="mobile">Mobile</option>
+
+</select>
+<br/>
+<hr/>
+<p>Do you play any of the following instruments?
+ (You can select more than one option by holding
+ down control on a PC or command key on a Mac
+ while selecting different options.)</p>
+<select name="instruments" size="3"
+ multiple="multiple">
+ <option value="guitar" selected="selected">
+ Guitar</option>
+ <option value="drums">Drums</option>
+ <option value="keyboard"
+ selected="selected">Keyboard</option>
+ <option value="bass">Bass</option>
+</select>
+
+<hr/>
+
+<p>Upload your song in MP3 format:</p>
+<input type="file" name="user-song" /><br /><br/>
+<input type="submit" value="Upload" />
+
+<hr/>
+
+<p>Subscribe to our email list:</p>
+<input type="text" name="email" />
+<input type="submit" name="subscribe"
+ value="Subscribe" />
+
+ <hr/>
+
+
+ <p>Subscribe to our email list:</p>
+ <input type="text" name="email" />
+ <input type="image" src="images/tropicalbird.jpg"
+ width="100" height="25" />
+
+
+	</form>
+<hr/>
+<!-- fieldset and legend tag is use for grouping form elements-->
+<fieldset>
+	<legend>contact detatils</legend>
+	<label>Email:<br />
+		<input type="email" name="email"></label>
+		<br/>
+
+	<label>Mobile:<br/>
+		<input type="text" name="mobile"></label>
+		<br/>
+
+	<label>Telephone:<br/></label>
+	<input type="text" name="telephone"><br/>
+</fieldset>
+	<p><b> fieldset and legend tag is use for grouping form elements</b></p>
+
+<p><h3>Date input type: date</h3>
+	<form action="http://www.example.com/bookings/"method="post">
+
+	<label for="username">Departure date:</label>
+
+	<input type="date" name="depart" />
+
+	<input type="submit" value="Submit" />
+	</form>
+</p>
+</body>
+</html>
+<!--This code is writen by Jay Fursule -->
